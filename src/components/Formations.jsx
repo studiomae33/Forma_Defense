@@ -59,7 +59,7 @@ export function Formations() {
           </button>
           <h3 className="text-lg font-bold mb-3 text-blue-700">Accessibilité & Handicap</h3>
           <p className="mb-2 font-bold">FORMA DEFENSE s’engage à rendre ses formations accessibles à tous.<br />Toutes nos formations sont accessibles aux personnes en situation de handicap.</p>
-          <p className="mb-2">Nous mettons en place les adaptations nécessaires pour garantir à chacun des conditions d'apprentissage optimales (accessibilité des locaux, aménagement des supports, adaptation des rythmes, etc.).</p>
+          <p className="mb-2">Nous mettons en place les adaptations nécessaires pour garantir à chacun des conditions d&apos;apprentissage optimales (accessibilité des locaux, aménagement des supports, adaptation des rythmes, etc.).</p>
           <p className="mb-2">Pour toute demande d’information ou de besoin spécifique, notre référent handicap est à votre disposition pour organiser les modalités d’accueil et d’accompagnement adaptées.</p>
           <div className="mt-3">
             <span className="inline-block mr-2">👉</span>
