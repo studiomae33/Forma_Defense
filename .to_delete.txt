@@ -1,0 +1,6 @@
+src/components/CallToAction.jsx
+src/components/PrimaryFeatures.jsx
+src/components/SecondaryFeatures.jsx
+src/components/Faqs.jsx
+src/components/Pricing.jsx
+src/components/Testimonials.jsx
