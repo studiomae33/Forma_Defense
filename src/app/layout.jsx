@@ -10,6 +10,9 @@ export const metadata = {
   },
   description:
     'Formation Négociation de crise : développez vos compétences pour gérer les situations tendues, la gestion des conflits et la négociation professionnelle.',
+  icons: {
+    icon: '/images/logo-site.png',
+  },
 }
 
 const inter = Inter({
