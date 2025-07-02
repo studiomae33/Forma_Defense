@@ -62,8 +62,8 @@ export function Hero() {
               </a>
             </div>
           )}
-          <Button href="#inscription" className="bg-blue-700 hover:bg-blue-800 text-white font-bold px-8 py-3 rounded-full shadow-lg text-lg transition-all duration-200">
-            Commencer la formation
+          <Button href="Formation" className="bg-blue-700 hover:bg-blue-800 text-white font-bold px-8 py-3 rounded-full shadow-lg text-lg transition-all duration-200">
+            Découvrir la formation
           </Button>
         </div>
         {/* Marquee défilante pour les bulles infos */}

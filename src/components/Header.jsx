@@ -70,7 +70,7 @@ function MobileNavigation() {
         <MobileNavLink href="#faq">FAQ</MobileNavLink>
         <MobileNavLink href="#avis">Les avis</MobileNavLink>
         <hr className="m-2 border-slate-300/40" />
-        <MobileNavLink href="#reserver">Réserver la formation</MobileNavLink>
+        <MobileNavLink href="Formation">Découvrir la formation</MobileNavLink>
       </PopoverPanel>
     </Popover>
   )
@@ -93,9 +93,9 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             {/* Suppression du lien texte doublon */}
-            <Button href="#reserver" color="blue">
+            <Button href="Formation" color="blue">
               <span>
-                Réserver la formation
+                Découvrir la formation
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
