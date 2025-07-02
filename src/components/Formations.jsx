@@ -9,7 +9,7 @@ const formation = {
   id: 1,
   title: 'Négociation de crise',
   level: 'Tout public',
-  image: '/images/avatars/avatar-1.png',
+  image: '/images/formation/formation.jpg',
   description: 'Formation 100% présentiel pour acquérir les techniques de négociation de crise, la gestion des conflits et le développement de stratégies de résolution. Accessible à toute personne en contact avec le public ou dans le secteur de la sécurité.',
   duration: '14h',
   chapters: 4,
