@@ -71,6 +71,32 @@ export function Formations() {
           </div>
         </div>
       </dialog>
+            {/* Tableau des indicateurs */}
+      <div className="mt-12">
+        <h3 className="text-2xl font-bold text-center text-blue-700 mb-4">Indicateurs de la formation</h3>
+        <div className="overflow-x-auto">
+          <table className="min-w-full border border-slate-200 rounded-xl overflow-hidden bg-white shadow-md">
+            <thead className="bg-blue-50">
+              <tr>
+                <th className="px-4 py-3 text-slate-700 font-semibold text-sm border-b border-slate-200">FORMATION</th>
+                <th className="px-4 py-3 text-slate-700 font-semibold text-sm border-b border-slate-200">NOMBRE DE STAGIAIRE</th>
+                <th className="px-4 py-3 text-slate-700 font-semibold text-sm border-b border-slate-200">TAUX DE SATISFACTION</th>
+                <th className="px-4 py-3 text-slate-700 font-semibold text-sm border-b border-slate-200">TAUX DE COMPLÉTION</th>
+                <th className="px-4 py-3 text-slate-700 font-semibold text-sm border-b border-slate-200">TAUX DE RÉUSSITE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="text-center hover:bg-blue-50 transition">
+                <td className="px-4 py-3 border-b border-slate-200">Négociation de crise</td>
+                <td className="px-4 py-3 border-b border-slate-200">1</td>
+                <td className="px-4 py-3 border-b border-slate-200">90%</td>
+                <td className="px-4 py-3 border-b border-slate-200">100%</td>
+                <td className="px-4 py-3 border-b border-slate-200">100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </section>
   )
 }

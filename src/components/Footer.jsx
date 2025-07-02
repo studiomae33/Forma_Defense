@@ -105,24 +105,6 @@ export function Footer() {
                   Fiche de formation
                 </a>
               </li>
-              <li>
-                <a
-                  href="/pdfs/Contrat%20de%20formation%20-%20N%C3%A9gociation%20de%20crise%20%20copie.pdf"
-                  download
-                  className="hover:underline"
-                >
-                  Contrat de formation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/pdfs/Guide%20RNQ%20v9%20du%2008%2001%2024.pdf"
-                  download
-                  className="hover:underline"
-                >
-                  Guide RNQ
-                </a>
-              </li>
             </ul>
           </div>
           {/* Contact */}
