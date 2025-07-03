@@ -34,7 +34,9 @@ export function Formations() {
             <span className="flex items-center gap-1"><span className="text-red-500">⏱️</span> 14h</span>
             <span className="flex items-center gap-1"><span className="text-orange-500">📅</span> Dates : 26 et 27 novembre 2025</span>
           </div>
-          <Button href="/Formation" className="mt-auto w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition">Voir & Réserver</Button>
+                    <Button href="/Formation" className="mt-auto w-full text-white font-semibold py-2 rounded-lg transition" style={{ backgroundColor: '#000E8F' }}>
+            Voir & Réserver
+          </Button>
         </div>
       </div>
       <div className="flex justify-end">
