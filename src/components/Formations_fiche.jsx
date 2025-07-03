@@ -14,24 +14,22 @@ export function FormationsFiche() {
           {/* Colonne gauche : Modules & Compétences */}
           <div className="flex-1 p-10 flex flex-col gap-8 bg-white/80">
             <div>
-              <h3 className="text-xl font-bold text-blue-700 mb-4 uppercase tracking-wide">Modules</h3>
-              <ol className="space-y-2">
-                <li className="flex items-center gap-2"><span className="text-blue-700 font-bold">1.</span><span>Compréhension et gestion des conflits</span></li>
-                <li className="flex items-center gap-2"><span className="text-blue-700 font-bold">2.</span><span>Techniques de négociation de crise</span></li>
-                <li className="flex items-center gap-2"><span className="text-blue-700 font-bold">3.</span><span>Stratégies de résolution de conflits</span></li>
-                <li className="flex items-center gap-2"><span className="text-blue-700 font-bold">4.</span><span>Gestion des émotions et du stress</span></li>
-              </ol>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-blue-700 mb-4 uppercase tracking-wide">Compétences</h3>
-              <ul className="space-y-2">
-                <li className="flex items-center gap-2"><span className="text-blue-600">✔️</span>Gestion des conflits</li>
-                <li className="flex items-center gap-2"><span className="text-blue-600">✔️</span>Négociation de crise</li>
-                <li className="flex items-center gap-2"><span className="text-blue-600">✔️</span>Désamorcer les situations tendues</li>
-                <li className="flex items-center gap-2"><span className="text-blue-600">✔️</span>Résolution de conflits</li>
-                <li className="flex items-center gap-2"><span className="text-blue-600">✔️</span>Communication sous pression</li>
-                <li className="flex items-center gap-2"><span className="text-blue-600">✔️</span>Gérer émotions & stress</li>
-              </ul>
+              <h3 className="text-xl font-bold mb-4 uppercase tracking-wide" style={{ color: '#000E8F' }}>Modules</h3>
+<ol className="space-y-2">
+  <li className="flex items-center gap-2"><span className="font-bold" style={{ color: '#000E8F' }}>1.</span><span>Compréhension et gestion des conflits</span></li>
+  <li className="flex items-center gap-2"><span className="font-bold" style={{ color: '#000E8F' }}>2.</span><span>Techniques de négociation de crise</span></li>
+  <li className="flex items-center gap-2"><span className="font-bold" style={{ color: '#000E8F' }}>3.</span><span>Stratégies de résolution de conflits</span></li>
+  <li className="flex items-center gap-2"><span className="font-bold" style={{ color: '#000E8F' }}>4.</span><span>Gestion des émotions et du stress</span></li>
+</ol>
+<h3 className="text-xl font-bold mb-4 uppercase tracking-wide" style={{ color: '#000E8F' }}>Compétences</h3>
+<ul className="space-y-2">
+  <li className="flex items-center gap-2"><span style={{ color: '#000E8F' }}>✔️</span>Gestion des conflits</li>
+  <li className="flex items-center gap-2"><span style={{ color: '#000E8F' }}>✔️</span>Négociation de crise</li>
+  <li className="flex items-center gap-2"><span style={{ color: '#000E8F' }}>✔️</span>Désamorcer les situations tendues</li>
+  <li className="flex items-center gap-2"><span style={{ color: '#000E8F' }}>✔️</span>Résolution de conflits</li>
+  <li className="flex items-center gap-2"><span style={{ color: '#000E8F' }}>✔️</span>Communication sous pression</li>
+  <li className="flex items-center gap-2"><span style={{ color: '#000E8F' }}>✔️</span>Gérer émotions & stress</li>
+</ul>
             </div>
             {/* Bloc PDF toujours ouvert sous Compétences */}
             <div className="group bg-blue-50 border border-blue-200 rounded-xl shadow-sm p-4 mt-2">
