@@ -120,7 +120,7 @@ export function FormationsFiche() {
                 className="w-full font-bold rounded-lg py-2 px-3 text-center transition text-base shadow"
                 style={{ backgroundColor: '#000E8F', color: 'white' }}
               >
-                S'inscrire à la formation
+                S&apos;inscrire à la formation
               </a>
             </div>
             <div className="w-full bg-white rounded-xl p-6 border border-blue-100 flex flex-col gap-6 shadow-sm mt-4">
