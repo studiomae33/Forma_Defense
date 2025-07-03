@@ -50,8 +50,7 @@ export function Avis() {
 						))}
 					</div>
 					{/* Badge note Google modernisé */}
-					<div className="absolute -bottom-8 left-1/2 -translate-x-1/2 text-white rounded-xl shadow-xl flex flex-col items-center justify-center px-6 py-3 w-40 border-4 border-white z-10 scale-105" style={{ background: 'linear-gradient(90deg, #000E8F 60%, #2563EB 100%)' }}>
-						<div className="text-xl font-extrabold mb-1 tracking-tight">5/5</div>
+										<div className="absolute -bottom-8 left-1/2 -translate-x-1/2 text-white rounded-xl shadow-xl flex flex-col items-center justify-center px-6 py-3 w-40 border-4 border-white z-10 scale-105" style={{ background: 'linear-gradient(90deg, #000E8F 60%, #e23a31 100%)' }}>
 						<div className="flex mb-1">
 							{Array.from({ length: 5 }).map((_, idx) => (
 								<FaStar key={idx} className="text-yellow-300 text-base drop-shadow" />
