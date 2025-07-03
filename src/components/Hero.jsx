@@ -62,7 +62,7 @@ export function Hero() {
               </a>
             </div>
           )}
-          <Button href="Formation" className="bg-blue-700 hover:bg-blue-800 text-white font-bold px-8 py-3 rounded-full shadow-lg text-lg transition-all duration-200">
+                    <Button href="Formation" className="text-white" style={{ backgroundColor: '#e23a31' }}>
             Découvrir la formation
           </Button>
         </div>
