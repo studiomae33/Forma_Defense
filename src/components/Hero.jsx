@@ -19,7 +19,7 @@ export function Hero() {
       <div className="text-left w-full lg:w-1/2 flex flex-col justify-center">
         <h1 className="max-w-2xl font-display text-5xl sm:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
           FORMATION<br />
-          <span className="text-blue-700 font-bold">Négociation de crise</span>
+                    <span className="font-bold" style={{ color: '#000E8F' }}>Négociation de crise</span>
         </h1>
         <p className="mt-7 max-w-lg text-xl text-slate-700 font-medium">
           Formation 100% présentiel pour maîtriser la gestion des conflits, les techniques de négociation de crise et le développement de stratégies de résolution. Acquérez des compétences essentielles pour désamorcer les situations tendues et gérer le stress en contexte professionnel.
