@@ -126,25 +126,33 @@ export function FormationsFiche() {
             )}
             <dialog ref={dialogRef} id="accessibilite-info-fiche" className="rounded-xl p-0 max-w-lg w-full shadow-xl backdrop:bg-black/30">
               <div className="bg-white rounded-xl p-6 relative">
-                <button
+                                <button
                   type="button"
-                  className="absolute top-3 right-4 text-slate-400 hover:text-blue-700 text-2xl font-bold"
+                  className="absolute top-3 right-4 text-slate-400 text-2xl font-bold"
+                  style={{ color: '#000E8F' }}
                   onClick={() => dialogRef.current && dialogRef.current.close()}
                   aria-label="Fermer"
                 >
                   ×
                 </button>
-                <h3 className="text-lg font-bold mb-2 text-blue-700">Accessibilité & Handicap</h3>
-                <p className="mb-2 font-bold">FORMA DEFENSE s’engage à rendre ses formations accessibles à tous.<br />Toutes nos formations sont accessibles aux personnes en situation de handicap.</p>
-                <p className="mb-2">Nous mettons en place les adaptations nécessaires pour garantir à chacun des conditions d&apos;apprentissage optimales (accessibilité des locaux, aménagement des supports, adaptation des rythmes, etc.).</p>
-                <p className="mb-2">Pour toute demande d’information ou de besoin spécifique, notre référent handicap est à votre disposition pour organiser les modalités d’accueil et d’accompagnement adaptées.</p>
+                <h3 className="text-lg font-bold mb-2" style={{ color: '#000E8F' }}>Accessibilité & Handicap</h3>
+                <p className="mb-2 font-bold">
+                  FORMA DEFENSE s’engage à rendre ses formations accessibles à tous.<br />
+                  Toutes nos formations sont accessibles aux personnes en situation de handicap.
+                </p>
+                <p className="mb-2">
+                  Nous mettons en place les adaptations nécessaires pour garantir à chacun des conditions d&apos;apprentissage optimales (accessibilité des locaux, aménagement des supports, adaptation des rythmes, etc.).
+                </p>
+                <p className="mb-2">
+                  Pour toute demande d’information ou de besoin spécifique, notre référent handicap est à votre disposition pour organiser les modalités d’accueil et d’accompagnement adaptées.
+                </p>
                 <div className="mt-3">
                   <span className="inline-block mr-2">👉</span>
                   <span className="font-semibold">Contact : Christophe MARTINHITA - Référent handicap</span><br />
                   <span className="inline-block mr-2">📧</span>
-                  <a href="mailto:contact@formadefense.fr" className="underline text-blue-700">contact@formadefense.fr</a><br />
+                  <a href="mailto:contact@formadefense.fr" className="underline" style={{ color: '#000E8F' }}>contact@formadefense.fr</a><br />
                   <span className="inline-block mr-2">📞</span>
-                  <a href="tel:0630380913" className="underline text-blue-700">06 30 38 09 13</a>
+                  <a href="tel:0630380913" className="underline" style={{ color: '#000E8F' }}>06 30 38 09 13</a>
                 </div>
               </div>
             </dialog>
