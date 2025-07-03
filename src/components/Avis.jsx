@@ -22,14 +22,16 @@ export function Avis() {
 	return (
 		<section className="relative w-full bg-white py-16 px-2 overflow-hidden">
 			{/* Décor rond pastel */}
-			<div className="absolute -top-32 -left-32 w-96 h-96 bg-blue-100 rounded-full opacity-40 -z-10" />
+						<div className="absolute -top-32 -left-32 w-96 h-96 rounded-full opacity-40 -z-10" style={{ backgroundColor: '#000E8F' }} />
 			<div className="absolute bottom-0 right-0 w-60 h-60 bg-yellow-100 rounded-full opacity-30 -z-10" />
 			<div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
 				{/* Bloc texte + bouton */}
 				<div className="flex-1 flex flex-col items-center lg:items-start justify-center mb-10 lg:mb-0">
-					<h2 className="text-4xl sm:text-5xl font-extrabold text-blue-900 mb-4 text-center lg:text-left drop-shadow">Ils nous ont fait confiance</h2>
+										<h2 className="text-4xl sm:text-5xl font-extrabold mb-4 text-center lg:text-left drop-shadow" style={{ color: '#000E8F' }}>Ils nous ont fait confiance</h2>
 					<p className="text-lg text-slate-700 mb-8 text-center lg:text-left max-w-md">Découvrez les retours authentiques de nos stagiaires sur la formation Forma Defense.</p>
-					<a href="https://www.google.com/search?q=forma+defense+avis" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold px-7 py-3 rounded-full shadow-lg transition text-lg">Voir tous les avis Google</a>
+					<a href="https://www.google.com/search?q=forma+defense+avis" target="_blank" rel="noopener noreferrer" className="inline-block font-bold px-7 py-3 rounded-full shadow-lg transition text-lg" style={{ backgroundColor: '#000E8F', color: 'white' }}>
+  Voir tous les avis Google
+</a>
 				</div>
 				{/* Bloc avis + badge */}
 				<div className="flex-1 flex flex-col gap-4 items-center relative">
