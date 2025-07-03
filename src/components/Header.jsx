@@ -91,7 +91,11 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             {/* Suppression du lien texte doublon */}
-            <Button href="Formation" color="blue">
+                        <Button
+              href="Formation"
+              className="text-white"
+              style={{ backgroundColor: '#000E8F' }}
+            >
               <span>
                 Découvrir la formation
               </span>
