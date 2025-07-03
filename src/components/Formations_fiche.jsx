@@ -32,31 +32,68 @@ export function FormationsFiche() {
 </ul>
             </div>
             {/* Bloc PDF toujours ouvert sous Compétences */}
-            <div className="group bg-blue-50 border border-blue-200 rounded-xl shadow-sm p-4 mt-2">
-              <div className="flex items-center justify-between text-blue-700 font-bold text-base select-none mb-4">
+                        <div className="group rounded-xl shadow-sm p-4 mt-2" style={{ background: '#f3f6fd', border: '1px solid #bfc8f9' }}>
+              <div className="flex items-center justify-between font-bold text-base select-none mb-4" style={{ color: '#000E8F' }}>
                 <span>📄 Télécharger les documents PDF de la formation</span>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
               </div>
               <div className="flex flex-col gap-3">
-                <a href="/pdfs/Programme%20de%20formation.pdf" download className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border border-blue-100 hover:bg-blue-100 transition font-medium text-blue-700 shadow-sm">
+                <a
+                  href="/pdfs/Programme%20de%20formation.pdf"
+                  download
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border"
+                  style={{ borderColor: '#bfc8f9', color: '#000E8F' }}
+                >
                   <span>Programme de formation (PDF)</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+                  </svg>
                 </a>
-                <a href="/pdfs/Fiche%20de%20formation.pdf" download className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border border-blue-100 hover:bg-blue-100 transition font-medium text-blue-700 shadow-sm">
+                <a
+                  href="/pdfs/Fiche%20de%20formation.pdf"
+                  download
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border"
+                  style={{ borderColor: '#bfc8f9', color: '#000E8F' }}
+                >
                   <span>Fiche de formation (PDF)</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+                  </svg>
                 </a>
-                <a href="/pdfs/Contrat%20de%20formation%20-%20N%C3%A9gociation%20de%20crise%20%20copie.pdf" download className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border border-blue-100 hover:bg-blue-100 transition font-medium text-blue-700 shadow-sm">
+                <a
+                  href="/pdfs/Contrat%20de%20formation%20-%20N%C3%A9gociation%20de%20crise%20%20copie.pdf"
+                  download
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border"
+                  style={{ borderColor: '#bfc8f9', color: '#000E8F' }}
+                >
                   <span>Contrat de formation (PDF)</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+                  </svg>
                 </a>
-                <a href="/pdfs/Guide%20RNQ%20v9%20du%2008%2001%2024.pdf" download className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border border-blue-100 hover:bg-blue-100 transition font-medium text-blue-700 shadow-sm">
+                <a
+                  href="/pdfs/Guide%20RNQ%20v9%20du%2008%2001%2024.pdf"
+                  download
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white border"
+                  style={{ borderColor: '#bfc8f9', color: '#000E8F' }}
+                >
                   <span>Guide RNQ (PDF)</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+                  </svg>
                 </a>
-                <a href="/pdfs/Documents_FORMA_DEFENSE.zip" download className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-700 text-white hover:bg-blue-800 transition font-bold shadow">
+                <a
+                  href="/pdfs/Documents_FORMA_DEFENSE.zip"
+                  download
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg"
+                  style={{ backgroundColor: '#000E8F', color: 'white' }}
+                >
                   <span>Télécharger tous les PDF (ZIP)</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+                  </svg>
                 </a>
               </div>
             </div>
