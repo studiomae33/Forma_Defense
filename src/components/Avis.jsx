@@ -20,7 +20,7 @@ const avis = [
 
 export function Avis() {
 	return (
-		<section className="relative w-full bg-white py-16 px-2 overflow-hidden">
+				<section id="avis" className="relative w-full bg-white py-16 px-2 overflow-hidden">
 			{/* Décor rond pastel */}
 						<div className="absolute -top-32 -left-32 w-96 h-96 rounded-full opacity-40 -z-10" style={{ backgroundColor: '#000E8F' }} />
 			<div className="absolute bottom-0 right-0 w-60 h-60 bg-yellow-100 rounded-full opacity-30 -z-10" />
