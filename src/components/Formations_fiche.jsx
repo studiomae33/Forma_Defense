@@ -64,7 +64,7 @@ export function FormationsFiche() {
           {/* Colonne droite : Synthèse, prix, infos clés, actions */}
           <div className="flex-1 bg-white p-10 flex flex-col justify-between gap-8">
             <div className="flex flex-col items-center gap-4 mb-4">
-              <span className="text-5xl font-extrabold text-blue-700 tracking-tight drop-shadow">499€</span>
+                           <span className="text-5xl font-extrabold tracking-tight drop-shadow" style={{ color: '#000E8F' }}>499€</span>
               <button
                 type="button"
                 className="w-full border border-blue-700 text-blue-700 font-bold rounded-lg py-2 px-3 text-center hover:bg-blue-50 transition text-base flex items-center justify-center gap-2 shadow-sm"
@@ -78,7 +78,13 @@ export function FormationsFiche() {
                   </>
                 )}
               </button>
-              <a href="https://docs.google.com/forms/d/177S8wsB8vrB3-tec166pCKIn9h14zdq4S9AwJZbEPrU/preview" className="w-full bg-blue-700 hover:bg-blue-800 text-white font-bold rounded-lg py-2 px-3 text-center transition text-base shadow">S&apos;inscrire à la formation</a>
+                            <a
+                href="https://docs.google.com/forms/d/177S8wsB8vrB3-tec166pCKIn9h14zdq4S9AwJZbEPrU/preview"
+                className="w-full font-bold rounded-lg py-2 px-3 text-center transition text-base shadow"
+                style={{ backgroundColor: '#000E8F', color: 'white' }}
+              >
+                S'inscrire à la formation
+              </a>
             </div>
             <div className="w-full bg-white rounded-xl p-6 border border-blue-100 flex flex-col gap-6 shadow-sm mt-4">
               <h4 className="text-lg font-bold text-blue-700 mb-2 text-center">Informations clés</h4>
