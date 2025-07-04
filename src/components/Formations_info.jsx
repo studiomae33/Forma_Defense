@@ -24,7 +24,7 @@ export function FormationsInfo() {
               ℹ️ Délai d’accès & rétractation
             </summary>
             <div className="mt-2 text-xs text-slate-700 bg-white border border-blue-100 rounded-lg p-4 leading-relaxed shadow">
-              Délai d’accès : les inscriptions sont possibles jusqu&apos;à 15 jours ouvrés avant le début de la formation, sous réserve de places disponibles.<br />
+              Les inscriptions sont possibles jusqu&apos;à 15 jours ouvrés avant le début de la formation, sous réserve de places disponibles.<br />
               Conformément à la réglementation, un délai de rétractation de 10 jours s&apos;applique à compter de la signature du contrat de formation. Passé ce délai, l&apos;inscription est considérée comme définitive.
             </div>
           </details>
