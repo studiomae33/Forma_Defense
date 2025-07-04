@@ -35,7 +35,12 @@ export function Avis() {
                     <FaStar key={idx} className="text-yellow-400 text-base" />
                   ))}
                 </div>
-                <div className="font-bold text-blue-900 text-base mt-1">{a.name}</div>
+                				<div
+				  className="font-bold text-blue-900 text-base mt-1 relative z-20 bg-white px-2 rounded-full shadow-sm border border-blue-100"
+				  style={{ marginTop: '12px' }}
+				>
+				  {a.name}
+				</div>
               </div>
             ))}
           </div>
