@@ -3,7 +3,7 @@ import { FaQuoteLeft, FaStar } from 'react-icons/fa'
 const avis = [
   {
     name: 'Ludovic LAUZE',
-    text: 'Super formateur et super formation ! Je recommande vivement',
+    text: 'Formation au top, hyper concrète et animée par un pro du terrain ! Didier Gueguen partage son expérience avec beaucoup de pédagogie. Idéal pour mieux gérer les conflits et apprendre à négocier en situation de tension. Je recommande à tous ceux qui bossent avec du public ou dans la sécu.',
     stars: 5,
   },
 ]
@@ -46,7 +46,7 @@ export function Avis() {
                 <FaStar key={idx} className="text-yellow-300 text-base drop-shadow" />
               ))}
             </div>
-            <div className="text-xs opacity-90">Sur 27 avis Google</div>
+            <div className="text-xs opacity-90">Sur 1 avis Google</div>
           </div>
         </div>
       </div>
